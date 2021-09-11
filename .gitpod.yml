@@ -1,2 +1,4 @@
-image:
-  file: .gitpod.DockerFile
+tasks:
+  - init: >
+      nvm install stable &&
+      npm install
